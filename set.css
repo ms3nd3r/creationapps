@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(243, 243, 243);
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: rgb(128, 128, 128);
+}
+h2 > a{
+    font-size: 5px;
+}
+.main{
+    margin: 50px 20px;
+    padding: 10px 50px 100px 50px;
+    background-color: rgb(255, 255, 255);    
+}
+div#goodDay{
+    margin: 50px 20px;
+    padding: 10px 50px 30px 50px;
+    background-color: rgb(255, 242, 231);    
+}
+div#sosoDay{
+    margin: 50px 20px;
+    padding: 10px 50px 30px 50px;
+    background-color: rgb(240, 255, 243);    
+}
+div#badDay{
+    margin: 50px 20px;
+    padding: 10px 50px 30px 50px;
+    background-color: rgb(224, 245, 255);    
+}
+p.prm{
+    padding: 10px;
+}
+p.souhyou{
+    margin-top: 50px;
+}
+#today{
+    font-size: x-large;
+}
+.Gmsg,.Smsg,.Bmsg{
+    font-size: xx-large;
+}
+.Gmsg{
+    color: rgb(255, 94, 53);
+}
+.Smsg{
+    color: aquamarine;
+}
+.Bmsg{
+    color: rgb(8, 8, 185);
+}
+
+.counter-area {
+    text-align: center;
+  }
+  
+  .access-count {
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 20px;
+    letter-spacing: 2px;
+    font-weight: 700;
+  }
+
+  footer > a {
+    color: white;
+    text-decoration: none;
+  }
+
+footer{
+    font-size: larger;
+    background-color: rgb(119, 119, 119);
+    color: white;
+    text-align: center;
+}
+#footer,
+#push {
+  height: 50px;
+}
+#ftr1{
+    margin-top: 150px;
+}
+#ftr2{
+    margin-top: 300px;
+    padding-bottom: 100px;
+}
