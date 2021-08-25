@@ -53,7 +53,7 @@
 
     ?> <!--いい一日だったね！とかよく頑張った！とか点数に応じてポジティブな一言-->
     <hr>
-    <p>今日の感情をツイートする→<a href="https://twitter.com/share?url=http://r03isc2t751.sub.jp/Emotion_meter/&hashtags=エモメーター&text=<?php print $souhyou.":今日はこんな過ごし方で".$pts."点な一日でした。";?>"
+    <p>今日の感情をツイートする→<a href="https://twitter.com/share?url=www.ms3nd3r.tk/&hashtags=エモメーター&text=<?php print $souhyou.":今日はこんな過ごし方で".$pts."点な一日でした。";?>"
     rel="nofollow"
     target="_blank" class="twitter-share-button"  data-show-count="false" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Tweet</a>※Twitterに遷移します
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
