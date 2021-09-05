@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="jp">
-<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/ fb# website: http://ogp.me/ns/website">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
 <meta property="og:url" content="https://creationapps.azurewebsites.net/"/>
 <meta property="og:type" content="website" />
 <meta property="og:title" content="エモメーター" />
 <meta property="og:description" content="今日がどんな一日だったのか振り返り、日記に書きやすくすることができるツールです。" />
 <meta property="og:site_name" content="Emotion_meter" />
-<meta property="og:image" content="https://creationapps.azurewebsites.net/image/thumbnail.jpg" />
+<meta property="og:image" content="https://creationapps.azurewebsites.net/image/thumbnail.png" />
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QGRJNQKNWH"></script>
 <script>
