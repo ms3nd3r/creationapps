@@ -46,18 +46,18 @@
     print "<div id=".$day.">"; //結果によってCSSの指定を変更
     print "<h1>Emotions/Meter</h1>";
     print "<h2>今日はどんな一日だった？</h2>";
-    print "<br><span>起きた出来事を日記に書きやすくするツール<span>";
+    print "<br><span>～ 一日で起きたことを可視化してくれるツール ～<span>";
     print "<hr>";
     print  '<p id="today">今日は・・・</p><p class="'.$msg.'">';
-    print $result;//上の変数    
+    print $result;//上の変数
 
     ?> <!--いい一日だったね！とかよく頑張った！とか点数に応じてポジティブな一言-->
     <hr>
-    <p>今日の感情をツイートする→<a href="https://twitter.com/share?url=www.ms3nd3r.tk/&hashtags=エモメーター&text=<?php print $souhyou.":今日はこんな過ごし方で".$pts."点な一日でした。";?>"
+    <p>今日の感情をツイートする→<a href="https://twitter.com/share?url=https://creationapps.azurewebsites.net/&hashtags=エモメーター&text=<?php print $souhyou.":今日はこんな過ごし方で".$pts."点な一日でした。";?>"
     rel="nofollow"
     target="_blank" class="twitter-share-button"  data-show-count="false" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Tweet</a>※Twitterに遷移します
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    
+
     </p>
     <a href="index.php" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">やり直す</a>
     <a href="https://forms.gle/X5XbJZdrKMM62Bpk7" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">ご意見・ご指摘はこちらへ</a>

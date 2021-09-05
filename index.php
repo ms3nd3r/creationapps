@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="jp">
-<head>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/ fb# website: http://ogp.me/ns/website">
+<meta property="og:url" content="https://creationapps.azurewebsites.net/"/>
+<meta property="og:type" content="website" />
+<meta property="og:title" content="エモメーター" />
+<meta property="og:description" content="今日がどんな一日だったのか振り返り、日記に書きやすくすることができるツールです。" />
+<meta property="og:site_name" content="Emotion_meter" />
+<meta property="og:image" content="https://creationapps.azurewebsites.net/image/thumbnail.jpg" />
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QGRJNQKNWH"></script>
 <script>
@@ -51,7 +57,7 @@
     何があったか：<input type="text" size="50" name="txt3"></p>
     <p class="prm" style="width:400px">怒った：<input class="mdl-slider mdl-js-slider" type="range" id="angerSlider" min="0" max="100" step="1" value="0" name="anger"><span id="msg4"></span>pts<br>
     何があったか：<input type="text" size="50" name="txt4"></p>
-    
+
         <script>    //jsファイル管理にするとエラー出ちゃうから直接入れてます、ごめんなさい
             function inputChange(event){
                 msg1.innerText = happySlider.value;
@@ -59,7 +65,7 @@
                 msg3.innerText = sadSlider.value;
                 msg4.innerText = angerSlider.value;
             }
-            
+
             let happySlider = document.getElementById('happySlider');
             happySlider.addEventListener('input', inputChange);
             let msg1 = document.getElementById('msg1');
@@ -82,6 +88,7 @@
     <input type="submit" value="今日一日のポイントを見たい、ツイートしたい人はこちら" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
     <a href="https://forms.gle/X5XbJZdrKMM62Bpk7" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">ご意見・ご指摘はこちらへ</a>
     <div class="push"></div>
+        <span>※ここでの入力内容は本ツールでのみ利用し、私的な記録を一切行わないことを約束します。</span>
     </div>
     </form>
     <footer id="ftr1">　　製作:ms3nd3r　　／　　<a href="https://github.com/ms3nd3r">GitHubプロフィールを見る</a>　　／　　<a href="https://ms3nd3r.github.io/homepage/">ホームページに移動する　　</a></footer>
